@@ -10,6 +10,6 @@ spec:
     protocol: TCP
     targetPort: http-webhook
     nodePort: 31234
-selector:
-  app: notification-controller
-type: NodePort
+  selector:
+    app: notification-controller
+  type: NodePort
